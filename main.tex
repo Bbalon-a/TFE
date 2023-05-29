@@ -1,0 +1,35 @@
+\documentclass[11pt,a4paper]{article}
+%\usepackage[subpreambles=true]{standalone}
+\input{Package/packages}
+\input{HomemadeCommands/commands}
+\addbibresource{Bibliography/bib.bib} % with extension
+
+\begin{document}
+  \pagenumbering{roman}
+\input{Acknowledgments/acknowledgments}
+
+   \newpage
+  \input{Abstract/abstract}
+
+  \newpage
+  \tableofcontents
+  \newpage
+   \input{Symbols and Abbreviations/Abbreviation and Symbols}
+   \newpage
+   
+\pagenumbering{arabic}
+    \input{Introduction/introduction}
+    \newpage
+    \input{Chapter/Chapter1}
+    \newpage
+    \input{Chapter/Chapter2}
+    \newpage
+    \input{Chapter/Chapter3}
+    \newpage
+    \input{Conclusion/Conclusion}
+
+   \newpage
+\printbibliography
+
+\end{document}
+

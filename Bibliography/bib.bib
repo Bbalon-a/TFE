@@ -1,0 +1,548 @@
+%------------------------------------------------------------------
+%FIN DES EXEMPLES
+%------------------------------------------------------------------
+
+%utilisez la structure des exemples ci dessus
+%Ça sert à rien de mettre des liens si on y fait pas référence dans le 
+texte UTILISEZ \cite{} 
+
+%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+%Faire attention aux caractères à escape dans les URLS (% \ _ ~) Pour 
+escape un caractère mettre un \ devant
+%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+% référence pour un article:
+%auteur(s), année, titre de l’article, titre de la revue, n° vol (n° 
+%fascicule), pagination de l’article.
+
+% référence pour un livre:
+% auteur(s), année de publication , titre, édition, publication (lieu 
+% et éditeur), nombre de pages.
+
+% référence pour un document internet:
+%auteur(s), date, titre, publication (lieu et éditeur), 
+%DOI si disponible ou adresse internet, date de consultation. 
+
+
+%-----------------------------------------------------------------------------
+%-----------------------------CLASSIFICATION----------------------------------
+@InProceedings{Mangard,
+author="Mangard, Stefan",
+editor="Okamoto, Tatsuaki",
+title="Hardware Countermeasures against DPA -- A Statistical Analysis of 
+Their Effectiveness",
+booktitle="Topics in Cryptology -- CT-RSA 2004",
+year="2004",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="222--235",
+abstract="Many hardware countermeasures against differential power 
+analysis (DPA) attacks have been developed during the last years. 
+Designers of cryptographic devices using such countermeasures to protect 
+their devices have the challenging task to select and implement a suitable 
+combination of countermeasures. Every device has different requirements, 
+and so there is no universal solution to protect devices against DPA 
+attacks.",
+isbn="978-3-540-24660-2"
+}
+
+@inproceedings{template,
+  title={Template Attacks},
+  booktitle={Cryptographic Hardware and Embedded Systems - CHES 2002, 4th 
+International Workshop, Redwood Shores, CA, USA, August 13-15, 2002, 
+Revised Papers},
+  series={Lecture Notes in Computer Science},
+  publisher={Springer},
+  volume={2523},
+  pages={13-28},
+  doi={10.1007/3-540-36400-5_3},
+  author={Suresh Chari and Josyula R. Rao and Pankaj Rohatgi},
+  year=2002
+}
+
+@misc{efficient_template,
+      author = {Omar Choudary and Markus G.  Kuhn},
+      title = {Efficient Template Attacks},
+      howpublished = {Cryptology ePrint Archive, Paper 2013/770},
+      year = {2013},
+      note = {\url{https://eprint.iacr.org/2013/770}},
+      url = {https://eprint.iacr.org/2013/770}
+}
+
+
+@InProceedings{lda_template,
+author="Standaert, Fran{\c{c}}ois-Xavier
+and Archambeau, Cedric",
+editor="Oswald, Elisabeth
+and Rohatgi, Pankaj",
+title="Using Subspace-Based Template Attacks to Compare and Combine Power 
+and Electromagnetic Information Leakages",
+booktitle="Cryptographic Hardware and Embedded Systems -- CHES 2008",
+year="2008",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="411--425",
+abstract="The power consumption and electromagnetic radiation are among 
+the most extensively used side-channels for analyzing physically 
+observable cryptographic devices. This paper tackles three important 
+questions in this respect. First, we compare the effectiveness of these 
+two side-channels. We investigate the common belief that electromagnetic 
+leakages lead to more powerful attacks than their power consumption 
+counterpart. Second we study the best combination of the power and 
+electromagnetic leakages. A quantified analysis based on sound information 
+theoretic and security metrics is provided for these purposes. Third, we 
+evaluate the effectiveness of two data dimensionality reduction techniques 
+for constructing subspace-based template attacks. Selecting automatically 
+the meaningful time samples in side-channel leakage traces is an important 
+problem in the application of template attacks and it usually relies on 
+heuristics. We show how classical statistical tools such as Principal 
+Component Analysis and Fisher Linear Discriminant Analysis can be used for 
+efficiently preprocessing the leakage traces.",
+isbn="978-3-540-85053-3"
+}
+
+@book{blockCipher,
+  added-at = {2019-07-10T00:00:00.000+0200},
+  author = {Katz, Jonathan and Lindell, Yehuda},
+  biburl = 
+{https://www.bibsonomy.org/bibtex/22aaba26235ec3b771dd49c89fc66395f/dblp},
+  ee = {http://www.cs.umd.edu/~jkatz/imc.html},
+  interhash = {7d31e9d5d2caac0d133c7d7688691094},
+  intrahash = {2aaba26235ec3b771dd49c89fc66395f},
+  isbn = {978-1-58488-551-1},
+  keywords = {dblp},
+  publisher = {Chapman and Hall/CRC Press},
+  timestamp = {2019-07-11T11:42:46.000+0200},
+  title = {Introduction to Modern Cryptography},
+  year = 2007
+  }
+
+
+@ARTICLE{diffusionConfusion,
+  author={Shannon, C. E.},
+  journal={The Bell System Technical Journal}, 
+  title={Communication theory of secrecy systems}, 
+  year={1949},
+  volume={28},
+  number={4},
+  pages={656-715},
+  doi={10.1002/j.1538-7305.1949.tb00928.x}}
+
+@book{AES_spec,
+  added-at = {2008-12-09T15:51:39.000+0100},
+  asin = {3540425802},
+  author = {Daemen, Joan and Rijmen, Vincent},
+  biburl = 
+{https://www.bibsonomy.org/bibtex/2716b7b3def9fb67898e7c80a4f3bf834/igorp},
+  description = {Amazon.com: The Design of Rijndael: AES - The Advanced 
+Encryption Standard (Information Security and Cryptography): Joan Daemen, 
+Vincent Rijmen: Books},
+  dewey = {005.8},
+  ean = {9783540425809},
+  edition = 1,
+  interhash = {34c298af9a9b61c11d64e726e6d6777f},
+  intrahash = {716b7b3def9fb67898e7c80a4f3bf834},
+  isbn = {3540425802},
+  keywords = {aes cryptography rijndael},
+  publisher = {Springer},
+  timestamp = {2008-12-09T15:51:39.000+0100},
+  title = {The Design of Rijndael: AES - The Advanced Encryption Standard 
+(Information Security and Cryptography)},
+  year = 2002
+}
+
+@InProceedings{unifiedFramework,
+author="Standaert, Fran{\c{c}}ois-Xavier
+and Malkin, Tal G.
+and Yung, Moti",
+editor="Joux, Antoine",
+title="A Unified Framework for the Analysis of Side-Channel Key Recovery 
+Attacks",
+booktitle="Advances in Cryptology - EUROCRYPT 2009",
+year="2009",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="443--461",
+abstract="The fair evaluation and comparison of side-channel attacks and 
+countermeasures has been a long standing open question, limiting further 
+developments in the field. Motivated by this challenge, this work makes a 
+step in this direction and proposes a framework for the analysis of 
+cryptographic implementations that includes a theoretical model and an 
+application methodology. The model is based on commonly accepted 
+hypotheses about side-channels that computations give rise to. It allows 
+quantifying the effect of practically relevant leakage functions with a 
+combination of information theoretic and security metrics, measuring the 
+quality of an implementation and the strength of an adversary, 
+respectively. From a theoretical point of view, we demonstrate formal 
+connections between these metrics and discuss their intuitive meaning. 
+From a practical point of view, the model implies a unified methodology 
+for the analysis of side-channel key recovery attacks. The proposed 
+solution allows getting rid of most of the subjective parameters that were 
+limiting previous specialized and often ad hoc approaches in the 
+evaluation of physically observable devices. It typically determines the 
+extent to which basic (but practically essential) questions such as ``How 
+to compare two implementations?'' or ``How to compare two side-channel 
+adversaries?'' can be answered in a sound fashion.",
+isbn="978-3-642-01001-9"
+}
+
+@InProceedings{mutualInformationAnalysis,
+author="Gierlichs, Benedikt
+and Batina, Lejla
+and Tuyls, Pim
+and Preneel, Bart",
+editor="Oswald, Elisabeth
+and Rohatgi, Pankaj",
+title="Mutual Information Analysis",
+booktitle="Cryptographic Hardware and Embedded Systems -- CHES 2008",
+year="2008",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="426--442",
+abstract="We propose a generic information-theoretic distinguisher for 
+differential side-channel analysis. Our model of side-channel leakage is a 
+refinement of the one given by Standaert et al. An embedded device 
+containing a secret key is modeled as a black box with a leakage function 
+whose output is captured by an adversary through the noisy measurement of 
+a physical observable. Although quite general, the model and the 
+distinguisher are practical and allow us to develop a new differential 
+side-channel attack. More precisely, we build a distinguisher that uses 
+the value of the Mutual Information between the observed measurements and 
+a hypothetical leakage to rank key guesses. The attack is effective 
+without any knowledge about the particular dependencies between 
+measurements and leakage as well as between leakage and processed data, 
+which makes it a universal tool. Our approach is confirmed by results of 
+power analysis experiments. We demonstrate that the model and the attack 
+work effectively in an attack scenario against DPA-resistant logic.",
+isbn="978-3-540-85053-3"
+}
+
+@InProceedings{MI_suite,
+author="Renauld, Mathieu
+and Standaert, Fran{\c{c}}ois-Xavier
+and Veyrat-Charvillon, Nicolas
+and Kamel, Dina
+and Flandre, Denis",
+editor="Paterson, Kenneth G.",
+title="A Formal Study of Power Variability Issues and Side-Channel Attacks 
+for Nanoscale Devices",
+booktitle="Advances in Cryptology -- EUROCRYPT 2011",
+year="2011",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="109--128",
+abstract="Variability is a central issue in deep submicron technologies, 
+in which it becomes increasingly difficult to produce two chips with the 
+same behavior. While the impact of variability is well understood from the 
+microelectronic point of view, very few works investigated its 
+significance for cryptographic implementations. This is an important 
+concern as 65-nanometer and smaller technologies are soon going to equip 
+an increasing number of security-enabled devices. Based on measurements 
+performed on 20 prototype chips of an AES S-box, this paper provides the 
+first comprehensive treatment of variability issues for side-channel 
+attacks. We show that technology scaling implies important changes in 
+terms of physical security. First, common leakage models (e.g. based on 
+the Hamming weight of the manipulated data) are no longer valid as the 
+size of transistors shrinks, even for standard CMOS circuits. This impacts 
+both the evaluation of hardware countermeasures and formal works assuming 
+that independent computations lead to independent leakage. Second, we 
+discuss the consequences of variability for profiled side-channel attacks. 
+We study the extend to which a leakage model that is carefully profiled 
+for one device can lead to successful attacks against another device. We 
+also define the perceived information to quantify this context, which 
+generalizes the notion of mutual information with possibly degraded 
+leakage models. Our results exhibit that existing side-channel attacks are 
+not perfectly suited to this new context. They constitute an important 
+step in better understanding the challenges raised by future technologies 
+for the theory and practice of leakage resilient cryptography.",
+isbn="978-3-642-20465-4"
+}
+
+@InProceedings{leakage_of_chip,
+author="Durvaux, Fran{\c{c}}ois
+and Standaert, Fran{\c{c}}ois-Xavier
+and Veyrat-Charvillon, Nicolas",
+editor="Nguyen, Phong Q.
+and Oswald, Elisabeth",
+title="How to Certify the Leakage of a Chip?",
+booktitle="Advances in Cryptology -- EUROCRYPT 2014",
+year="2014",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="459--476",
+abstract="Evaluating side-channel attacks and countermeasures requires 
+determining the amount of information leaked by a target device. For this 
+purpose, information extraction procedures published so far essentially 
+combine a ``leakage model'' with a ``distinguisher''. Fair evaluations 
+ideally require exploiting a perfect leakage model (i.e. exactly 
+corresponding to the true leakage distribution) with a Bayesian 
+distinguisher. But since such perfect models are generally unknown, 
+density estimation techniques have to be used to approximate the leakage 
+distribution. This raises the fundamental problem that all security 
+evaluations are potentially biased by both estimation and assumption 
+errors. Hence, the best that we can hope is to be aware of these errors. 
+In this paper, we provide and implement methodological tools to solve this 
+issue. Namely, we show how sound statistical techniques allow both 
+quantifying the leakage of a chip, and certifying that the amount of 
+information extracted is close to the maximum value that would be obtained 
+with a perfect model.",
+isbn="978-3-642-55220-5"
+}
+
+@InProceedings{boundPIHI,
+author="Bronchain, Olivier
+and Hendrickx, Julien M.
+and Massart, Cl{\'e}ment
+and Olshevsky, Alex
+and Standaert, Fran{\c{c}}ois-Xavier",
+editor="Boldyreva, Alexandra
+and Micciancio, Daniele",
+title="Leakage Certification Revisited: Bounding Model Errors in 
+Side-Channel Security Evaluations",
+booktitle="Advances in Cryptology -- CRYPTO 2019",
+year="2019",
+publisher="Springer International Publishing",
+address="Cham",
+pages="713--737",
+abstract="Leakage certification aims at guaranteeing that the statistical 
+models used in side-channel security evaluations are close to the true 
+statistical distribution of the leakages, hence can be used to approximate 
+a worst-case security level. Previous works in this direction were only 
+qualitative: for a given amount of measurements available to an evaluation 
+laboratory, they rated a model as ``good enough'' if the model assumption 
+errors (i.e., the errors due to an incorrect choice of model family) were 
+small with respect to the model estimation errors. We revisit this problem 
+by providing the first quantitative tools for leakage certification. For 
+this purpose, we provide bounds for the (unknown) Mutual Information 
+metric that corresponds to the true statistical distribution of the 
+leakages based on two easy-to-compute information theoretic quantities: 
+the Perceived Information, which is the amount of information that can be 
+extracted from a leaking device thanks to an estimated statistical model, 
+possibly biased due to estimation and assumption errors, and the 
+Hypothetical Information, which is the amount of information that would be 
+extracted from an hypothetical device exactly following the model 
+distribution. This positive outcome derives from the observation that 
+while the estimation of the Mutual Information is in general a hard 
+problem (i.e., estimators are biased and their convergence is 
+distribution-dependent), it is significantly simplified in the case of 
+statistical inference attacks where a target random variable (e.g., a key 
+in a cryptographic setting) has a constant (e.g., uniform) probability. 
+Our results therefore provide a general and principled path to bound the 
+worst-case security level of an implementation. They also significantly 
+speed up the evaluation of any profiled side-channel attack, since they 
+imply that the estimation of the Perceived Information, which embeds an 
+expensive cross-validation step, can be bounded by the computation of a 
+cheaper Hypothetical Information, for any estimated statistical model.",
+isbn="978-3-030-26948-7"
+}
+
+@misc{TI,
+      author = {Loïc Masure and Gaëtan Cassiers and Julien Hendrickx and 
+François-Xavier Standaert},
+      title = {Information Bounds and Convergence Rates for Side-Channel 
+Security Evaluators},
+      howpublished = {Cryptology ePrint Archive, Paper 2022/490},
+      year = {2022},
+      note = {\url{https://eprint.iacr.org/2022/490}},
+      url = {https://eprint.iacr.org/2022/490}
+}
+@InProceedings{KocherDPA,
+author="Kocher, Paul
+and Jaffe, Joshua
+and Jun, Benjamin",
+editor="Wiener, Michael",
+title="Differential Power Analysis",
+booktitle="Advances in Cryptology --- CRYPTO' 99",
+year="1999",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="388--397",
+abstract="Cryptosystem designers frequently assume that secrets will be 
+manipulated in closed, reliable computing environments. Unfortunately, 
+actual computers and microchips leak information about the operations they 
+process. This paper examines specific methods for analyzing power 
+consumption measurements to find secret keys from tamper resistant 
+devices. We also discuss approaches for building cryptosystems that can 
+operate securely in existing hardware that leaks information.",
+isbn="978-3-540-48405-9"
+}
+
+@inproceedings{KocherTiming,
+  title={Timing Attacks on Implementations of Diffie-Hellman, RSA, DSS, 
+and Other Systems},
+  booktitle={Advances in Cryptology - CRYPTO '96, 16th Annual 
+International Cryptology Conference, Santa Barbara, California, USA, 
+August 18-22, 1996, Proceedings},
+  series={Lecture Notes in Computer Science},
+  publisher={Springer},
+  volume={1109},
+  pages={104-113},
+  doi={10.1007/3-540-68697-5_9},
+  author={Paul C. Kocher},
+  year=1996
+}
+
+
+@article{fixslicingImplem, title={Fixslicing AES-like Ciphers: New 
+bitsliced AES speed records on ARM-Cortex M and RISC-V}, volume={2021}, 
+url={https://tches.iacr.org/index.php/TCHES/article/view/8739}, 
+DOI={10.46586/tches.v2021.i1.402-425}, abstractNote={&amp;lt;p&amp;gt;The 
+fixslicing implementation strategy was originally introduced as a new 
+representation for the hardware-oriented GIFT block cipher to achieve very 
+efficient software constant-time implementations. In this article, we show 
+that the fundamental idea underlying the fixslicing technique is not of 
+interest only for GIFT, but can be applied to other ciphers as well. 
+Especially, we study the benefits of fixslicing in the case of AES and 
+show that it allows to reduce by 52\% the amount of operations required by 
+the linear layer when compared to the current fastest bitsliced 
+implementation on 32-bit platforms. Overall, we report that fixsliced 
+AES-128 allows to reach 80 and 91 cycles per byte on ARM Cortex-M and E31 
+RISC-V processors respectively (assuming pre-computed round keys), 
+improving the previous records on those platforms by 21\% and 26\%. In 
+order to highlight that our work also directly improves masked 
+implementations that rely on bitslicing, we report implementation results 
+when integrating first-order masking that outperform by 12\% the fastest 
+results reported in the literature on ARM Cortex-M4. Finally, we 
+demonstrate the genericity of the fixslicing technique for AES-like 
+designs by applying it to the Skinny-128 tweakable block 
+ciphers.&amp;lt;/p&amp;gt;}, number={1}, journal={IACR Transactions on 
+Cryptographic Hardware and Embedded Systems}, author={Adomnicai, Alexandre 
+and Peyrin, Thomas}, year={2020}, month={12}, pages={402–425} }
+
+@misc{key_enumeration,
+      author = {Nicolas Veyrat-Charvillon and Benoît Gérard and Mathieu 
+Renauld and François-Xavier Standaert},
+      title = {An optimal Key Enumeration Algorithm and its Application to 
+Side-Channel Attacks},
+      howpublished = {Cryptology ePrint Archive, Paper 2011/610},
+      year = {2011},
+      note = {\url{https://eprint.iacr.org/2011/610}},
+      url = {https://eprint.iacr.org/2011/610}
+}
+
+@misc{rank_estimation1,
+      author = {Nicolas Veyrat-Charvillon and Benoît Gérard and 
+François-Xavier Standaert},
+      title = {Security Evaluations Beyond Computing Power: How to Analyze 
+Side-Channel Attacks you Cannot Mount?},
+      howpublished = {Cryptology ePrint Archive, Paper 2012/578},
+      year = {2012},
+      note = {\url{https://eprint.iacr.org/2012/578}},
+      url = {https://eprint.iacr.org/2012/578}
+}
+
+
+@inproceedings{rank_estimation_histo,
+author = {Poussier, Romain and Standaert, François-Xavier and Grosso, 
+Vincent},
+year = {2016},
+month = {08},
+pages = {61-81},
+title = {Simple Key Enumeration (and Rank Estimation) Using Histograms: An 
+Integrated Approach},
+volume = {9813},
+isbn = {978-3-662-53139-6},
+doi = {10.1007/978-3-662-53140-2_4}
+}
+
+
+@inproceedings{electromagnetic,
+  title={Electromagnetic Analysis: Concrete Results},
+  booktitle={Cryptographic Hardware and Embedded Systems - CHES 2001, 
+Third International Workshop, Paris, France, May 14-16, 2001, 
+Proceedings},
+  series={Lecture Notes in Computer Science},
+  publisher={Springer},
+  volume={2162},
+  pages={251-261},
+  doi={10.1007/3-540-44709-1_21},
+  author={Karine Gandolfi and Christophe Mourtel and Francis Olivier},
+  year=2001
+}
+
+@book{ECB1,
+  added-at = {2007-04-16T14:16:26.000+0200},
+  author = {Menezes, Alfred J. and van Oorschot, Paul C. and Vanstone, 
+Scott A.},
+  biburl = 
+{https://www.bibsonomy.org/bibtex/21fb86a3afb62bbb4bc2f94a0299a4d59/kidloc},
+  interhash = {d5837a554ce2ffd49f551045400e244c},
+  intrahash = {1fb86a3afb62bbb4bc2f94a0299a4d59},
+  keywords = {cryptography handbook programming reference security},
+  publisher = {CRC Press},
+  timestamp = {2007-04-16T14:16:26.000+0200},
+  title = {Handbook of Applied Cryptography},
+  url = {http://www.cacr.math.uwaterloo.ca/hac/},
+  year = 2001
+}
+@book{ECB2,
+  added-at = {2010-10-15T14:07:40.000+0200},
+  asin = {0471117099},
+  author = {Schneier, Bruce},
+  biburl = 
+{https://www.bibsonomy.org/bibtex/28c12265ad6e516dc284032b633931ade/schmitz},
+  dewey = {005.82},
+  ean = {9780471117094},
+  edition = {2nd},
+  interhash = {6b976228cda680a87d348fb14458bbee},
+  intrahash = {8c12265ad6e516dc284032b633931ade},
+  isbn = {0471117099},
+  keywords = {computerscience top10},
+  publisher = {Wiley},
+  timestamp = {2010-10-15T14:07:40.000+0200},
+  title = {Applied Cryptography},
+  year = 1996
+}
+
+
+@ARTICLE{BitslicedSBOX1,
+  author={Imana, Jos Luis and Hermida, Romn and Tirado, Francisco},
+  journal={IEEE Transactions on Very Large Scale Integration (VLSI) 
+Systems}, 
+  title={Low Complexity Bit-Parallel Multipliers Based on a Class of 
+Irreducible Pentanomials}, 
+  year={2006},
+  volume={14},
+  number={12},
+  pages={1388-1393},
+  doi={10.1109/TVLSI.2006.887835}}
+
+
+@InProceedings{BitslicedSBOX2,
+author="Wolkerstorfer, Johannes
+and Oswald, Elisabeth
+and Lamberger, Mario",
+editor="Preneel, Bart",
+title="An ASIC Implementation of the AES SBoxes",
+booktitle="Topics in Cryptology --- CT-RSA 2002",
+year="2002",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="67--78",
+abstract="This article presents a hardware implementation of the SBoxes 
+from the Advanced Encryption Standard (AES). The SBoxes substitute an 
+8-bit input for an 8-bit output and are based on arithmetic operations in 
+the finite field GF(28). We show that a calculation of this function and 
+its inverse can be done efficiently with combinational logic. This 
+approach has advantages over a straight-forward implementation using 
+read-only memories for table lookups. Most of the functionality is used 
+for both encryption and decryption. The resulting circuit offers low 
+transistor count, has low die-size, is convenient for pipelining, and can 
+be realized easily within a semi-custom design methodology like a 
+standard-cell design. Our standard cell implementation on a 0.6 $\mu$m 
+CMOS process requires an area of only 0.108 mm2 and has delay below 15 ns 
+which equals a maximum clock frequency of 70 MHz. These results were 
+achieved without applying any speed optimization techniques like 
+pipelining.",
+isbn="978-3-540-45760-2"
+}
+
+@misc{BitslicedSboxPeralta,
+      author = {Joan Boyar and Rene Peralta},
+      title = {New logic minimization techniques with applications to 
+cryptology.},
+      howpublished = {Cryptology ePrint Archive, Paper 2009/191},
+      year = {2009},
+      note = {\url{https://eprint.iacr.org/2009/191}},
+      url = {https://eprint.iacr.org/2009/191}
+}

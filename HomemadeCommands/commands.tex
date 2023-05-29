@@ -1,0 +1,41 @@
+% Group all the homemade command/ environment
+
+\newenvironment{acknowledgements}%
+    {\cleardoublepage\thispagestyle{empty}\null\vfill\begin{center}%
+    \bfseries Acknowledgements\end{center}}%
+    {\vfill\null}
+  
+\newenvironment{abstract_homemade}%
+    {\cleardoublepage\thispagestyle{empty}\null\vfill\begin{center}%
+    \bfseries Abstract\end{center}}%
+    {\vfill\null}
+% Chapter is used as delimiter in memoir or report therefore change it to 
+set the section as the first delimiter
+\renewcommand{\thesection}{\arabic{section}}
+
+% No indentation by default with this
+\setlength{\parindent}{0pt}
+
+
+
+
+% Same thing for the table of content 
+\makeatletter
+\renewcommand\tableofcontents{%
+    \if@twocolumn
+      \@restonecoltrue\onecolumn
+    \else
+      \@restonecolfalse
+    \fi
+    \section*{\contentsname
+        \@mkboth{%
+           \MakeUppercase\contentsname}{\MakeUppercase\contentsname}}%
+    \@starttoc{toc}%
+    \if@restonecol\twocolumn\fi
+    }
+\makeatother
+
+
+% Declare operator instead of more lines
+\DeclareMathOperator*{\argmin}{argmin\,}
+\DeclareMathOperator*{\argmax}{argmax\,}
